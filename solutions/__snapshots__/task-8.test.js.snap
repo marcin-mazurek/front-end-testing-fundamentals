@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sortArray sorts an array correctly 1`] = `
+Array [
+  0,
+  2,
+  3,
+  3,
+  6,
+  14,
+  34,
+  42,
+  55,
+  61,
+  102,
+  808,
+  1010,
+]
+`;
+
+exports[`sortArray sorts an array correctly 2`] = `
+Array [
+  "amet",
+  "dolor",
+  "ipsum",
+  "lorem",
+  "sit",
+]
+`;
+
+exports[`sortArray throws when incorrect data type is passed as argument 1`] = `"Invalid argument - expected a function"`;

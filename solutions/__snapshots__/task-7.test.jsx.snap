@@ -1,0 +1,614 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavList marks the active link with an appropriate class 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavList
+    activeLink="http://example.com/page/2"
+    links={
+      Array [
+        Object {
+          "href": "http://example.com/page/1",
+          "text": "Example link 1",
+        },
+        Object {
+          "href": "http://example.com/page/2",
+          "text": "Example link 2",
+        },
+        Object {
+          "href": "http://example.com/page/3",
+          "text": "Example link 3",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          <a
+            className={false}
+            href="http://example.com/page/1"
+          >
+            Example link 1
+          </a>
+        </li>,
+        <li>
+          <a
+            className="link--active"
+            href="http://example.com/page/2"
+          >
+            Example link 2
+          </a>
+        </li>,
+        <li>
+          <a
+            className={false}
+            href="http://example.com/page/3"
+          >
+            Example link 3
+          </a>
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className={false}
+            href="http://example.com/page/1"
+          >
+            Example link 1
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 1",
+            "className": false,
+            "href": "http://example.com/page/1",
+          },
+          "ref": null,
+          "rendered": "Example link 1",
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className="link--active"
+            href="http://example.com/page/2"
+          >
+            Example link 2
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 2",
+            "className": "link--active",
+            "href": "http://example.com/page/2",
+          },
+          "ref": null,
+          "rendered": "Example link 2",
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className={false}
+            href="http://example.com/page/3"
+          >
+            Example link 3
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 3",
+            "className": false,
+            "href": "http://example.com/page/3",
+          },
+          "ref": null,
+          "rendered": "Example link 3",
+          "type": "a",
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <a
+              className={false}
+              href="http://example.com/page/1"
+            >
+              Example link 1
+            </a>
+          </li>,
+          <li>
+            <a
+              className="link--active"
+              href="http://example.com/page/2"
+            >
+              Example link 2
+            </a>
+          </li>,
+          <li>
+            <a
+              className={false}
+              href="http://example.com/page/3"
+            >
+              Example link 3
+            </a>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className={false}
+              href="http://example.com/page/1"
+            >
+              Example link 1
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 1",
+              "className": false,
+              "href": "http://example.com/page/1",
+            },
+            "ref": null,
+            "rendered": "Example link 1",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="link--active"
+              href="http://example.com/page/2"
+            >
+              Example link 2
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 2",
+              "className": "link--active",
+              "href": "http://example.com/page/2",
+            },
+            "ref": null,
+            "rendered": "Example link 2",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className={false}
+              href="http://example.com/page/3"
+            >
+              Example link 3
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 3",
+              "className": false,
+              "href": "http://example.com/page/3",
+            },
+            "ref": null,
+            "rendered": "Example link 3",
+            "type": "a",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`NavList renders a "The menu is empty" text if no links are given 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "The menu is empty",
+    },
+    "ref": null,
+    "rendered": "The menu is empty",
+    "type": "span",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "The menu is empty",
+      },
+      "ref": null,
+      "rendered": "The menu is empty",
+      "type": "span",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`NavList renders an ul with links 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavList
+    links={
+      Array [
+        Object {
+          "href": "http://example.com/page/1",
+          "text": "Example link 1",
+        },
+        Object {
+          "href": "http://example.com/page/2",
+          "text": "Example link 2",
+        },
+        Object {
+          "href": "http://example.com/page/3",
+          "text": "Example link 3",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          <a
+            className={false}
+            href="http://example.com/page/1"
+          >
+            Example link 1
+          </a>
+        </li>,
+        <li>
+          <a
+            className={false}
+            href="http://example.com/page/2"
+          >
+            Example link 2
+          </a>
+        </li>,
+        <li>
+          <a
+            className={false}
+            href="http://example.com/page/3"
+          >
+            Example link 3
+          </a>
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className={false}
+            href="http://example.com/page/1"
+          >
+            Example link 1
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 1",
+            "className": false,
+            "href": "http://example.com/page/1",
+          },
+          "ref": null,
+          "rendered": "Example link 1",
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className={false}
+            href="http://example.com/page/2"
+          >
+            Example link 2
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 2",
+            "className": false,
+            "href": "http://example.com/page/2",
+          },
+          "ref": null,
+          "rendered": "Example link 2",
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className={false}
+            href="http://example.com/page/3"
+          >
+            Example link 3
+          </a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Example link 3",
+            "className": false,
+            "href": "http://example.com/page/3",
+          },
+          "ref": null,
+          "rendered": "Example link 3",
+          "type": "a",
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <a
+              className={false}
+              href="http://example.com/page/1"
+            >
+              Example link 1
+            </a>
+          </li>,
+          <li>
+            <a
+              className={false}
+              href="http://example.com/page/2"
+            >
+              Example link 2
+            </a>
+          </li>,
+          <li>
+            <a
+              className={false}
+              href="http://example.com/page/3"
+            >
+              Example link 3
+            </a>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className={false}
+              href="http://example.com/page/1"
+            >
+              Example link 1
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 1",
+              "className": false,
+              "href": "http://example.com/page/1",
+            },
+            "ref": null,
+            "rendered": "Example link 1",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className={false}
+              href="http://example.com/page/2"
+            >
+              Example link 2
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 2",
+              "className": false,
+              "href": "http://example.com/page/2",
+            },
+            "ref": null,
+            "rendered": "Example link 2",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className={false}
+              href="http://example.com/page/3"
+            >
+              Example link 3
+            </a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Example link 3",
+              "className": false,
+              "href": "http://example.com/page/3",
+            },
+            "ref": null,
+            "rendered": "Example link 3",
+            "type": "a",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
